@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{674F6B8F-D9F9-4AB4-B4ED-4C640F77ED92}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataTemplates/Views/TimeSlotsWrapLayout.cs">
+    <Files>
+      <File FileName="DataTemplates/Pages/FramesPageCS.cs" Line="9" Column="1" />
+      <File FileName="DataTemplates/Views/TimeSlotsWrapLayout.cs" Line="51" Column="1" />
+      <File FileName="DataTemplates/ViewModels/TimeSlotViewModel.cs" Line="16" Column="35" />
+      <File FileName="DataTemplates/ViewModels/RoomsViewModel.cs" Line="36" Column="29" />
+      <File FileName="DataTemplates/Model/Room.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DataTemplates.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.cdbb956e19f00d310b0dc09db99f27c0a181cafa" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.DataTemplates.Droid PreferredExecutionTarget="Android.4d0037b2d8cd61ed" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gregmercer/Desktop/gsbgo/Greg/github/ListFrames/DataTemplates/DataTemplates/WithDataTemplatePage.xaml.cs" relfile="DataTemplates/WithDataTemplatePage.xaml.cs" line="10" column="1" />
+      <Breakpoint file="/Users/gregmercer/Desktop/gsbgo/Greg/github/ListFrames/DataTemplates/DataTemplates/Pages/RoomsFiilterPage.xaml" relfile="DataTemplates/Pages/RoomsFiilterPage.xaml" line="13" column="1" />
+      <Breakpoint file="/Users/gregmercer/Desktop/gsbgo/Greg/github/ListFrames/DataTemplates/DataTemplates/Views/TimeSlotsWrapLayout.cs" relfile="DataTemplates/Views/TimeSlotsWrapLayout.cs" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
