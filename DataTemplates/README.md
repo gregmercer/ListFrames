@@ -1,21 +1,26 @@
-# ButtonsBoxes
-Xamarin Forms Rooms List Performance Test Buttons vs Frames
+# ListFrames
+Xamarin Forms Rooms List with TimeSlots as Frames
 
+I'm trying to resolve the following issue when running this sample app on a iOS device:
 
-ButtonsBoxes Data Templates
-=============================
-Shows the scrolling performance difference on Droid from using Buttons vs Frames in a ListView. Buttons and Frames are created within two different cs-based Data Templates. 
+When you initial open the app you will see 3 rooms listed and each room displays 5 timeslots. You can switch to the 'OtherPage' and then switch back to the 'Frames' page, and you'll notice that you can still see 3 rooms listed and each room displays 5 timeslots.
 
-A listview with several of Buttons scroll much slower on Android than do Frames.
+Next 'Click' on the 'Add Timeslot' button. You'll now see 3 rooms listed and each room displays 6 instead of the previous 5 timeslots. Now switch to the 'OtherPage' and then back to the 'Frames' page.
 
-Also this sample code offers a reference for one possible way to chain together View Models, trigger bound property UI updates, and send Commands up to the top-level View Model.
+On iOS you can now see that the Rooms and Timeslots do not display. 
+
+On Droid, using this same test you'll still be able to see the 3 rooms listed and each room displays 6 timeslots.
+
+Addition note
+==============
+
+Each time the 'Frames' page triggers the OnAppearing event, the list of rooms and timeslots are recreated by a call to the RoomsViewModel GetRooms() method.
 
 Diagram of Classes
 ===================
 
 RoomsViewModel
 - Has a list of RoomViewModels
-- Raises a property changed on the TimeSlotViewModel Selected property.
 
 RoomViewModel 
 - Has a list a TimeSlotViewModels
@@ -25,8 +30,6 @@ TimeSlotViewModel
 
 TimeSlotButton (UI View)
 - Has a BindingContext to a TimeSlotViewModel
-- Has a SelectedProperty bound to the TimeSlotViewModel
-- Has a Clicked handler which sends a ToggleTimeSlotCommand to the RoomsViewModel, passing the TimeSlotViewModel
 
 App
 - Has a property for the RoomsViewModel
