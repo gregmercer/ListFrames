@@ -11,8 +11,8 @@ On iOS you can now see that the Rooms and Timeslots do not display.
 
 On Droid, using this same test you'll still be able to see the 3 rooms listed and each room displays 6 timeslots.
 
-Addition note
-==============
+Additional note
+================
 
 Each time the 'Frames' page triggers the OnAppearing event, the list of rooms and timeslots are recreated by a call to the RoomsViewModel GetRooms() method.
 
